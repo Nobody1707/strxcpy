@@ -23,7 +23,7 @@ Result:
   * A pointer to the location in dst of the copied nul character, if present.
   * A nullptr if no nul was copied from source.
 
-dst is always nul-terminated. If no nul is copied, dst[len] will be set to '\0'
+dst is always nul-terminated. If no nul is copied, dst[len - 1] will be set to '\0'
 
 No code in this repository was AI generated. Don't ask why I bothered publishing such a trivial library.
 
