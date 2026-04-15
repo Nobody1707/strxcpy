@@ -23,4 +23,6 @@ Result:
 
 dst is always nul-terminated. If no nul is copied, dst[len] will be set to '\0'
 
+No code in this repository was AI generated. Don't ask why I bothered publishing such a trivial library.
+
 TODO: format README
