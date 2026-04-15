@@ -1,11 +1,13 @@
 strxcpy is a single file library for sized string copying in C23.
 
 How to use:  
+
 Add strxcpy.h to your project.  
 #include it  
 call the function.
 
-Adding an external entry point:
+Adding an external entry point:  
+
 By default strxcpy.h provides only an inline definition of strxcpy, in order to provide an extern definition exactly one textual unit must `#define STRXCPY_DEFINE_ENTRY_POINT` before including strxcpy.h
 
 Prototype:
